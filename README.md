@@ -24,6 +24,20 @@ Open [http://localhost:3456](http://localhost:3456).
 - Recharts for frontiers
 - `javascript-lp-solver` for CCR DEA LPs
 
+## USAR Minor Project (ARP 455) pack
+
+See [`docs/WHAT_YOU_NEED_TO_DO.md`](docs/WHAT_YOU_NEED_TO_DO.md).
+
+| File | Purpose |
+|---|---|
+| `docs/Prospectfolio_Minor_Project_Report_ARP455.docx` | Formatted project report |
+| `docs/Prospectfolio_Viva_Presentation.pptx` | Viva presentation |
+| `docs/generate_report_and_ppt.py` | Regenerates DOCX + PPTX |
+
+```bash
+python3 docs/generate_report_and_ppt.py
+```
+
 ## Note
 
 Returns are **synthetic** (seeded) for a reproducible demo without market-data APIs. This is an educational tool, not financial advice.
